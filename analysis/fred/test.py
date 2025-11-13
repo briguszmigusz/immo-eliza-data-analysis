@@ -1,5 +1,4 @@
 import pandas as pd
-import plotly.express as px
 from IPython.core.display_functions import display
 
 # Read the file
@@ -8,7 +7,8 @@ df = pd.read_csv(input_file)
 df["type"] = df["type"].str.lower().str.strip()
 
 # Investment property
-investment_property = df[df["type"] == "investment-property"]
+investment_property = df[df["type"] == "investment-property"].copy()
+print(investment_property.describe())
 
 # Garage
 garage_types = ["garage", "parking"]    # Subcategories of "garage"
@@ -20,19 +20,6 @@ undefined_property = df[df["type"] == "undetermined-property"]
 # Student housing
 student_housing = df[df["type"] == "student-flat"]
 
-# drop rows without coordinates
-geo = investment_property.dropna(subset=["latitude", "longitude"])
-
-fig = px.scatter_mapbox(geo,
-                        lat="latitude", lon="longitude",
-                        color="price_num",
-                        size="price_num",
-                        hover_data=["title", "price"],
-                        color_continuous_scale=px.colors.cyclical.IceFire,
-                        zoom=7,
-                        title="Investment properties on the map")
-fig.update_layout(mapbox_style="open-street-map")
-fig.show()
-
-
-
+# Create a csv file for every property type
+#for property_type in df["type"].unique():
+#    df[df["type"] == property_type].to_csv(f"{property_type}.csv", index=False)
