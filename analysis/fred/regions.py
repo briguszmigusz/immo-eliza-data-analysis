@@ -1,4 +1,6 @@
 import pandas as pd
+from IPython.core.display_functions import display
+from numpy.ma.core import cumsum
 
 # Read the file
 input_file = "../astha/immovlan_cleaned_file.csv"
@@ -66,3 +68,11 @@ df["province"] = df["postal_code"].apply(postcode_to_province)
 # Test
 print("Provinces distribution:")
 print(df["province"].value_counts(dropna=False))
+
+province_summary = (
+    df
+    .groupby("province")["price"]
+    .agg(median_price="median", n_obs="count")
+    .reset_index()
+)
+display(province_summary)
