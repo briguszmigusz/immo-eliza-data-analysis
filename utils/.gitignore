@@ -1,0 +1,8 @@
+# OS / notebooks
+.DS_Store
+.ipynb_checkpoints/
+
+# data
+data/raw/*
+!data/raw/.gitkeep
+data/cleaned/*.parquet

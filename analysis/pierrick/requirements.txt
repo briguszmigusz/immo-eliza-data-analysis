@@ -1,0 +1,5 @@
+#to get requirements run: pip install -r requirements.txt
+pandas
+numpy
+matplotlib
+pyarrow
