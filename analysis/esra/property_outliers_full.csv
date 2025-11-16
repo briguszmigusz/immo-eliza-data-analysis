@@ -1,0 +1,73 @@
+Property ID,Value,Column
+vbd49633,550000.0,Price
+vba87665,415000.0,Price
+vbd42447,179000.0,Price
+vbc87224,349000.0,Price
+rbu55839,399000.0,Price
+vbd45788,99999.0,Price
+vbd46461,280000.0,Price
+vbd30007,399000.0,Price
+rbu66858,285000.0,Price
+vbd08297,175000.0,Price
+rbu67232,400000.0,Price
+vbd25719,180000.0,Price
+vbd49633,0.0,Number of bedrooms
+vba87665,4.0,Number of bedrooms
+vbd42447,0.0,Number of bedrooms
+vbc87224,8.0,Number of bedrooms
+rbu55839,4.0,Number of bedrooms
+vbd45788,0.0,Number of bedrooms
+vbd46461,0.0,Number of bedrooms
+vbd30007,3.0,Number of bedrooms
+rbu66858,0.0,Number of bedrooms
+vbd08297,2.0,Number of bedrooms
+rbu67232,0.0,Number of bedrooms
+vbd25719,0.0,Number of bedrooms
+vbd49633,200.0,Livable surface
+vba87665,133.0,Livable surface
+vbd42447,363.0,Livable surface
+vbc87224,175.0,Livable surface
+rbu55839,251.0,Livable surface
+vbd45788,91.0,Livable surface
+vbd46461,174.0,Livable surface
+vbd30007,216.0,Livable surface
+rbu66858,189.0,Livable surface
+vbd08297,122.0,Livable surface
+rbu67232,224.0,Livable surface
+vbd25719,142.0,Livable surface
+vbd49633,79.0,Total land surface
+vba87665,625.0,Total land surface
+vbd42447,2966.0,Total land surface
+vbc87224,312.0,Total land surface
+rbu55839,119.0,Total land surface
+vbd45788,494.0,Total land surface
+vbd46461,181.0,Total land surface
+vbd30007,1220.0,Total land surface
+rbu66858,379.0,Total land surface
+vbd08297,575.0,Total land surface
+rbu67232,386.0,Total land surface
+vbd25719,880.0,Total land surface
+vbd49633,1.0,Number of garages
+vba87665,1.0,Number of garages
+vbd42447,1.0,Number of garages
+vbc87224,1.0,Number of garages
+rbu55839,1936.0,Number of garages
+vbd45788,1.0,Number of garages
+vbd46461,1.0,Number of garages
+vbd30007,111.0,Number of garages
+rbu66858,1.0,Number of garages
+vbd08297,1.0,Number of garages
+rbu67232,1.0,Number of garages
+vbd25719,2.0,Number of garages
+vbd49633,1.0,Number of bathrooms
+vba87665,2.0,Number of bathrooms
+vbd42447,1.0,Number of bathrooms
+vbc87224,3.0,Number of bathrooms
+rbu55839,1.0,Number of bathrooms
+vbd45788,1.0,Number of bathrooms
+vbd46461,1.0,Number of bathrooms
+vbd30007,1.0,Number of bathrooms
+rbu66858,1.0,Number of bathrooms
+vbd08297,1.0,Number of bathrooms
+rbu67232,1.0,Number of bathrooms
+vbd25719,1.0,Number of bathrooms
