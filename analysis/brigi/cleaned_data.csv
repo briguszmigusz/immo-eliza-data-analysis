@@ -1,29 +1,3 @@
-<<<<<<< HEAD
-﻿........0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
-.....url,Property ID,Price,State of the property,Availability,Number of bedrooms,Livable surface,Furnished,Attic,Garage,Number of garages,Kitchen equipment,Kitchen type,Number of bathrooms,Number of showers,Number of toilets,Type of heating,Type of glazing,Elevator,Number of facades,Garden,Surface garden,Terrace,Surface terrace,Total land surface,Swimming pool,postcode,city
-https://immovlan.be/en/detail/studio/for-sale/4000/liege/vbd20021,vbd20021,175000.0,New,On contract,0.0,51.0,NaN,NaN,NaN,NaN,NaN,NaN,1.0,NaN,1.0,NaN,NaN,NaN,NaN,1.0,NaN,1.0,NaN,NaN,NaN,4000,Liege
-https://immovlan.be/en/detail/apartment/for-sale/1410/waterloo/vbd30235,vbd30235,415000.0,New,On contract,1.0,70.0,1.0,NaN,0.0,NaN,Super equipped,NaN,1.0,1.0,1.0,NaN,NaN,0.0,2.0,0.0,NaN,0.0,20.0,NaN,0.0,1410,Waterloo
-https://immovlan.be/en/detail/residence/for-sale/1501/buizingen/vbd46297,vbd46297,399000.0,NaN,NaN,2.0,129.0,NaN,NaN,0.0,NaN,NaN,NaN,1.0,1.0,1.0,Gas,Double glass,NaN,4.0,0.0,NaN,NaN,NaN,NaN,NaN,1501,Buizingen
-https://immovlan.be/en/detail/apartment/for-sale/7000/mons/vbd36813,vbd36813,229000.0,New,NaN,2.0,82.0,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,0.0,3.0,1.0,NaN,0.0,8.0,NaN,NaN,7000,Mons
-https://immovlan.be/en/detail/apartment/for-sale/7000/mons/vbb60643,vbb60643,320000.0,New,NaN,3.0,106.0,NaN,NaN,NaN,NaN,NaN,NaN,NaN,1.0,1.0,NaN,NaN,NaN,NaN,0.0,NaN,0.0,6.0,NaN,NaN,7000,Mons
-https://immovlan.be/en/detail/apartment/for-sale/1400/nivelles/vbd46661,vbd46661,185000.0,Excellent,NaN,1.0,56.0,1.0,NaN,NaN,NaN,NaN,NaN,NaN,1.0,1.0,Gas,NaN,0.0,4.0,1.0,NaN,0.0,7.0,NaN,NaN,1400,Nivelles
-https://immovlan.be/en/detail/residence/for-sale/6830/bouillon/vbd11776,vbd11776,190000.0,NaN,NaN,5.0,142.0,1.0,0.0,0.0,1.0,NaN,NaN,NaN,1.0,3.0,Fuel oil,NaN,1.0,3.0,0.0,NaN,0.0,NaN,320.0,NaN,6830,Bouillon
-https://immovlan.be/en/detail/apartment/for-sale/1480/tubize/vbd36992,vbd36992,329000.0,New,NaN,3.0,113.0,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,0.0,2.0,1.0,NaN,0.0,9.0,NaN,NaN,1480,Tubize
-https://immovlan.be/en/detail/residence/for-sale/9810/nazareth/rbu64988,rbu64988,327850.0,To be renovated,On contract,3.0,185.0,1.0,0.0,0.0,1.0,Super equipped,NaN,1.0,1.0,2.0,Fuel oil,Double glass,1.0,4.0,0.0,315.0,0.0,21.0,683.0,1.0,9810,Nazareth
-https://immovlan.be/en/detail/investment-property/for-sale/8560/wevelgem/rbu62634,rbu62634,1475000.0,New,On contract,12.0,NaN,NaN,NaN,0.0,6.0,Super equipped,NaN,6.0,6.0,12.0,Hot air,Double glass,1.0,4.0,NaN,NaN,0.0,NaN,624.0,NaN,8560,Wevelgem
-https://immovlan.be/en/detail/apartment/for-sale/1170/watermaal-bosvoorde/vbd46746,vbd46746,679000.0,New,On contract,3.0,150.0,NaN,NaN,NaN,NaN,NaN,Independent,2.0,5.0,NaN,Gas,Double glass,0.0,2.0,1.0,NaN,0.0,6.0,NaN,1.0,1170,Watermaal Bosvoorde
-https://immovlan.be/en/detail/apartment/for-sale/8900/ieper/rbt86438,rbt86438,224250.0,New,NaN,1.0,71.0,NaN,1.0,0.0,NaN,NaN,NaN,1.0,NaN,1.0,NaN,Double glass,0.0,2.0,1.0,NaN,0.0,NaN,NaN,1.0,8900,Ieper
-https://immovlan.be/en/detail/apartment/for-sale/6790/aubange/vbd34109,vbd34109,229900.0,Excellent,Immediately,2.0,77.0,1.0,NaN,0.0,NaN,Fully equipped,Western kitchen,1.0,NaN,1.0,NaN,Triple glass,0.0,4.0,1.0,NaN,1.0,NaN,NaN,1.0,6790,Aubange
-https://immovlan.be/en/detail/residence/for-sale/5001/belgrade/vbc54869,vbc54869,365000.0,New,NaN,3.0,203.0,1.0,0.0,0.0,1.0,Not equipped,NaN,NaN,1.0,2.0,Gas,NaN,1.0,2.0,0.0,NaN,0.0,NaN,298.0,NaN,5001,Belgrade
-https://immovlan.be/en/detail/apartment/for-sale/1982/elewijt/rbu46377,rbu46377,537720.0,New,On contract,3.0,170.0,1.0,NaN,0.0,NaN,NaN,NaN,1.0,NaN,2.0,Gas,NaN,0.0,4.0,0.0,NaN,0.0,21.0,NaN,NaN,1982,Elewijt
-https://immovlan.be/en/detail/apartment/for-sale/9600/ronse/rbu41545,rbu41545,199000.0,Excellent,On contract,1.0,83.0,NaN,NaN,NaN,NaN,NaN,NaN,1.0,1.0,1.0,Gas,Double glass,0.0,2.0,0.0,NaN,0.0,11.0,NaN,NaN,9600,Ronse
-https://immovlan.be/en/detail/residence/for-sale/9420/erpe-mere/rbu61502,rbu61502,460000.0,NaN,NaN,4.0,178.0,NaN,NaN,NaN,NaN,NaN,NaN,1.0,NaN,2.0,NaN,NaN,NaN,NaN,0.0,355.0,1.0,NaN,NaN,NaN,9420,Erpe Mere
-https://immovlan.be/en/detail/residence/for-sale/6830/bouillon/vbd11793,vbd11793,145000.0,To be renovated,Immediately,3.0,270.0,1.0,0.0,NaN,NaN,NaN,NaN,NaN,NaN,3.0,NaN,Simple glass,1.0,NaN,1.0,NaN,1.0,NaN,NaN,NaN,6830,Bouillon
-https://immovlan.be/en/detail/residence/for-sale/9450/denderhoutem/rbu66306,rbu66306,125000.0,To be renovated,On contract,1.0,80.0,1.0,1.0,NaN,NaN,NaN,NaN,1.0,NaN,NaN,NaN,NaN,1.0,2.0,0.0,NaN,0.0,NaN,168.0,1.0,9450,Denderhoutem
-https://immovlan.be/en/detail/commercial-building/for-sale/1800/vilvoorde/rbu66908,rbu66908,150000.0,NaN,On contract,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,Double glass,NaN,NaN,NaN,NaN,0.0,34.0,NaN,NaN,1800,Vilvoorde
-https://immovlan.be/en/detail/residence/for-sale/6700/arlon/vbd16229,vbd16229,310000.0,To be renovated,NaN,3.0,146.0,1.0,0.0,0.0,1.0,NaN,NaN,1.0,1.0,3.0,Fuel oil,NaN,1.0,2.0,0.0,267.0,0.0,NaN,267.0,NaN,6700,Arlon
-https://immovlan.be/en/detail/apartment/for-sale/7000/mons/vbd32597,vbd32597,320000.0,New,NaN,3.0,110.0,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,0.0,2.0,1.0,NaN,0.0,50.0,NaN,NaN,7000,Mons
-=======
 ﻿url,Property ID,Price,State of the property,Availability,Number of bedrooms,Livable surface,Furnished,Attic,Garage,Number of garages,Kitchen equipment,Kitchen type,Number of bathrooms,Number of showers,Number of toilets,Type of heating,Type of glazing,Elevator,Number of facades,Garden,Surface garden,Terrace,Surface terrace,Total land surface,Swimming pool,postcode,city
 https://immovlan.be/en/detail/studio/for-sale/4000/liege/vbd20021,vbd20021,175000.0,New,On contract,0.0,51.0,NaN,NaN,NaN,NaN,NaN,NaN,1.0,NaN,1.0,NaN,NaN,NaN,NaN,0.0,NaN,0.0,NaN,NaN,NaN,4000,Liege
 https://immovlan.be/en/detail/apartment/for-sale/1410/waterloo/vbd30235,vbd30235,415000.0,New,On contract,1.0,70.0,0.0,NaN,1.0,NaN,Super equipped,NaN,1.0,1.0,1.0,NaN,NaN,1.0,2.0,1.0,NaN,1.0,20.0,NaN,1.0,1410,Waterloo
@@ -47,7 +21,6 @@ https://immovlan.be/en/detail/residence/for-sale/9450/denderhoutem/rbu66306,rbu6
 https://immovlan.be/en/detail/commercial-building/for-sale/1800/vilvoorde/rbu66908,rbu66908,150000.0,NaN,On contract,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,Double glass,NaN,NaN,NaN,NaN,1.0,34.0,NaN,NaN,1800,Vilvoorde
 https://immovlan.be/en/detail/residence/for-sale/6700/arlon/vbd16229,vbd16229,310000.0,To be renovated,NaN,3.0,146.0,0.0,1.0,1.0,1.0,NaN,NaN,1.0,1.0,3.0,Fuel oil,NaN,0.0,2.0,1.0,267.0,1.0,NaN,267.0,NaN,6700,Arlon
 https://immovlan.be/en/detail/apartment/for-sale/7000/mons/vbd32597,vbd32597,320000.0,New,NaN,3.0,110.0,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,1.0,2.0,0.0,NaN,1.0,50.0,NaN,NaN,7000,Mons
->>>>>>> 70bf5dccfa0126322fcc5781d873d5ad42663837
 https://immovlan.be/en/detail/land/for-sale/6950/nassogne/vbd36859,vbd36859,75000.0,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,NaN,694.0,NaN,6950,Nassogne
 https://immovlan.be/en/detail/apartment/for-sale/1500/halle/rbt30063,rbt30063,275000.0,Normal,NaN,1.0,62.0,0.0,NaN,NaN,NaN,Fully equipped,Western kitchen,1.0,NaN,1.0,Gas,Double glass,1.0,2.0,NaN,NaN,1.0,NaN,NaN,0.0,1500,Halle
 https://immovlan.be/en/detail/apartment/for-sale/1654/huizingen/rbu60363,rbu60363,360000.0,NaN,NaN,2.0,110.0,NaN,NaN,NaN,NaN,NaN,NaN,1.0,NaN,NaN,NaN,Double glass,1.0,2.0,1.0,NaN,1.0,18.0,NaN,NaN,1654,Huizingen
