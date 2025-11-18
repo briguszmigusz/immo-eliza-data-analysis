@@ -57,8 +57,8 @@ immo-eliza-data-analysis/
 │   │       └── (final processed files)
 │
 ├── reports/
-│   ├── finalized-presentation.pdf
-│   └── figures/                 <-- Exported graphs & charts
+│   └── finalized-presentation.pdf
+│  
 │
 ├── utils/
 │   └── .gitignore       
