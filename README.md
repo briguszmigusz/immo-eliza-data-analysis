@@ -11,7 +11,7 @@ Our work focuses on:
 - Consistent data cleaning  
 - Feature engineering (postcode, city, province, type)  
 - Exploratory data analysis  
-- Visualisation using Plotly & Seaborn  
+- Visualisation using Plotly, Geopandas, Folium, Matplotlib & Seaborn  
 - Regional and provincial price comparisons  
 - Property type segmentation  
 - Correlation analysis  
@@ -26,8 +26,10 @@ immo-eliza-data-analysis/
 ├── analysis/
 │   ├── astha/
 │   │   ├── data_cleaning.ipynb
+│   │   ├── data_visualization_business_types.ipynb
 │   │   ├── immovlan_cleaned_file.csv
-│   │   └── final_visual_analysis.ipynb      <-- MAIN analysis notebook used for the presentation
+│   │   └── immovlan_final_file.csv
+│   │
 │   │
 │   ├── brigi/
 │   │   ├── brigi_data_cleaning.ipynb
@@ -63,6 +65,11 @@ immo-eliza-data-analysis/
 ├── utils/
 │   └── .gitignore       
 │
+├── data_cleaning_visualization.ipynb        <-- MAIN
+├── immovlan_final_file.csv
+├── immovlan_cleaned_file.csv
+│  
+│
 ├── requirements.txt
 └── README.md                    
 ```
@@ -75,7 +82,7 @@ immo-eliza-data-analysis/
 - Built the complete cleaning pipeline  
 - Normalised all column names and text formats  
 - Engineered key features with the code from the others: `postcode`, `city`, `province`, `property_category`, `price_per_m2`  
-- Ensured consistent numeric types (aigain with help of others), removed outliers, fixed encoding issues  
+- Ensured consistent numeric types (again with help of others), removed outliers, fixed encoding issues  
 - Structured the dataset so every team member could work on analysis smoothly  
 
 ### **Brigi – Repository Manager & URL Feature Extraction**
@@ -85,13 +92,15 @@ immo-eliza-data-analysis/
 - Maintained branch discipline and resolved repository conflicts  
 - Ensured our GitHub structure stayed clean and conflict-free  
 
-### **Astha – Team Lead**
-- Distributed tasks and set clear project goals  
+### **Esra– Team Lead**
+- Distributed tasks and set clear project goals 
 - Coordinated daily progress check-ins  
 - Ensured alignment in analysis direction  
 - Participated in reviewing cleaning steps and visualisation ideas  
 
-### **Esra – Visualisation & Planning**
+### **Astha – Visualisation & Planning**
+- Extracted property types from URLs   
+- Data analysis and visualisation for business types
 - Created visualisation prototypes and experimented with multiple graph types  
 - Helped structure the flow of analysis topics  
 - Worked on planning and kept track of deadlines during the week  
@@ -125,6 +134,7 @@ All results are illustrated using clear, accessible visualisations.
 ### **1. Regional Differences**
 - Brussels is the most expensive region by a large margin.  
 - Flanders ranks second, followed by Wallonia.  
+- Number of counts  and prices for commercial buildings are higher in Flanders, followed by Wallonia. 
 
 ### **2. Provincial Differences**
 - The highest prices appear in  
@@ -134,10 +144,11 @@ All results are illustrated using clear, accessible visualisations.
 ### **3. Property Type**
 - Apartments have a higher €/m² than houses  
 - Houses show higher sensitivity to land size and number of bathrooms
+- Price/m² have direct impact on Commercial buildings 
 
 ### **4. Correlation Findings**
 - Strongest predictors of price:  
-  **bathrooms, toilets, bedrooms**  
+  **bathrooms, toilets, bedrooms, state of property**  
 - Livable surface is a weak predictor  
 - Functionality > size  
 - Correlations vary across property types  
