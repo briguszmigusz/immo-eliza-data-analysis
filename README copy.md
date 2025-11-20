@@ -11,7 +11,7 @@ Our work focuses on:
 - Consistent data cleaning  
 - Feature engineering (postcode, city, province, type)  
 - Exploratory data analysis  
-- Visualisation using Plotly, Geopandas, Folium, Matplotlib & Seaborn  
+- Visualisation using Plotly & Seaborn  
 - Regional and provincial price comparisons  
 - Property type segmentation  
 - Correlation analysis  
@@ -26,10 +26,8 @@ immo-eliza-data-analysis/
 ├── analysis/
 │   ├── astha/
 │   │   ├── data_cleaning.ipynb
-│   │   ├── data_visualization_business_types.ipynb
 │   │   ├── immovlan_cleaned_file.csv
-│   │   └── immovlan_final_file.csv
-│   │
+│   │   └── final_visual_analysis.ipynb      <-- MAIN analysis notebook used for the presentation
 │   │
 │   ├── brigi/
 │   │   ├── brigi_data_cleaning.ipynb
@@ -64,11 +62,6 @@ immo-eliza-data-analysis/
 │
 ├── utils/
 │   └── .gitignore       
-│
-├── data_cleaning_visualization.ipynb        <-- MAIN
-├── immovlan_final_file.csv
-├── immovlan_cleaned_file.csv
-│  
 │
 ├── requirements.txt
 └── README.md                    
@@ -144,11 +137,11 @@ All results are illustrated using clear, accessible visualisations.
 ### **3. Property Type**
 - Apartments have a higher €/m² than houses  
 - Houses show higher sensitivity to land size and number of bathrooms
-- Price/m² have direct impact on Commercial buildings 
+- Commercial buildings are higher 
 
 ### **4. Correlation Findings**
 - Strongest predictors of price:  
-  **bathrooms, toilets, bedrooms, state of property**  
+  **bathrooms, toilets, bedrooms**  
 - Livable surface is a weak predictor  
 - Functionality > size  
 - Correlations vary across property types  
